@@ -1,0 +1,10 @@
+{
+  "name": "observer-pattern",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "tsc && node dist/behavioral/observer/index.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
