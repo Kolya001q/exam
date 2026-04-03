@@ -1,10 +1,24 @@
 {
-  "name": "observer-pattern",
+  "name": "observer-pattern-ts",
   "version": "1.0.0",
+  "description": "Implementation of the Observer behavioral design pattern using TypeScript",
+  "main": "dist/behavioral/observer/index.js",
   "scripts": {
-    "start": "tsc && node dist/behavioral/observer/index.js"
+    "build": "tsc",
+    "start": "tsc && node dist/behavioral/observer/index.js",
+    "dev": "tsc --watch",
+    "clean": "rimraf dist"
   },
+  "keywords": [
+    "typescript",
+    "design-patterns",
+    "observer",
+    "behavioral-pattern"
+  ],
+  "author": "Kolya001q <dmukola228@gmail.com>",
+  "license": "ISC",
   "devDependencies": {
+    "rimraf": "^5.0.0",
     "typescript": "^5.0.0"
   }
 }
